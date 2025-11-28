@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSVP - Annik & Joaquim</title>
+  <link rel="stylesheet" href="sytles2.css">
+</head>
+
+<nav>
+  <div class="nav-left">
+    <div class="logo">A & J</div>
+  </div>
+
+  <div class="nav-center">
+    <div class="menu">
+      <a href="#fete">La fête</a>
+      <a href="#histoire">Notre histoire</a>
+      <a href="#demande">La demande</a>
+      <a href="#faq">FAQ</a>
+    </div>
+  </div>
+
+  <div class="nav-right">
+    <div class="menu">
+      <a href="main.html" class="btn-rsvp">Retour</a>
+      <div class="dropdown-langue">
+        <button class="btn-langue">🌍 Langue</button>
+        <div class="dropdown-content">
+          <a href="main.html">Français</a>
+          <a href="English.html">English</a>
+          <a href="Deutsch.html">Deutsch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<body>
+
+
+
+<!-- FORMULAIRE -->
+<section class="form-container">
+
+  <h1>Fête de l’Amour Annik & Joaquim</h1>
+  
+  <p class="subtitle">Confirmer votre présence</p>
+  <p class="description">Répondez à ces quelques questions pour confirmer votre présence.</p>
+
+  <form
+    action="https://docs.google.com/forms/d/e/1FAIpQLSd-D_A7enMlBnR4fwXYWhWwSkucFA5X8pGt25T3MzPIfREMkg/formResponse"
+    method="POST"
+    target="_blank"
+    >
+
+    <h2>Informations personnelles</h2>
+
+    <div class="row">
+        <div class="input-group">
+            <label>Prénom</label>
+            <input type="text" name="entry.876511233"required>
+        </div>
+
+        <div class="input-group">
+            <label>Nom</label>
+            <input type="text" name="entry.1672282878"required>
+        </div>
+    </div>
+    <!-- PRÉSENCE -->
+    <h2>Présence</h2> 
+    <div class="radio-group">
+        <label><input type="radio" name="entry.279183771" value="vendredi"> Je veux profiter un maximum, je vous rejoins déjà vendredi</label>
+        <label><input type="radio" name="entry.279183771" value="semdi + dimanche">Comptez sur ma présnece samedi et dimanche</label>
+        <label><input type="radio" name="entry.279183771" value="samedi"> Je serai de la partie le samedi uniquement</label>
+        <label><input type="radio" name="entry.279183771" value="absent"> Désolé je serai obligé de manquer cet évenement incroyable</label>
+    </div>
+
+    <h2>Repas</h2>
+    <p>Avez-vous des allergies ou intolérances ?</p>
+    <textarea class="textarea" name="entry.453403604">
+    </textarea>
+
+    <!-- HÉBERGEMENT -->
+    <h2>Hébergement</h2>
+    <div class="radio-group">
+        <label><input type="radio" name="entry.667456340" value="tente sur palce"> Je suis ouvert à l'idée de dormir sous une tente (surplace)</label>
+        <label><input type="radio" name="entry.667456340" value="chambre hotel"> Je souhaite dormir dans une chambre du Berghotel Chäserstatt (surpalce)</label>
+        <label><input type="radio" name="entry.667456340" value="mes myoen"> Je ne dormirai pas sur place et me débrouille par mes prorpes moyens pour ce qui concerne le logement</label>
+        <label><input type="radio" name="entry.667456340" value="je veux une tente"> Je veux La tente</label>
+        <label><input type="radio" name="entry.667456340" value="dormir pk?"> Dormir? Pourquoi faire? Faisons la fête</label>
+    </div>
+
+    <div class="input-group textarea-container">
+        <label>Commentaire :</label>
+        <textarea class="textarea" name="entry.1216305587"></textarea>
+    </div>
+
+    <h2>Musique</h2>
+    <p>Votre musique incontournable pour une bonne soirée :</p>
+    <input type="text" class="small-input" name="entry.835506396">
+
+    <!-- MATOS BÉBÉ -->
+    <h2>Matériel bébé</h2>
+    <div class="radio-group">
+        <label><input type="checkbox" name="entry.609603144" value="lit"> lit</label>
+        <label><input type="checkbox" name="entry.609603144" value="chaise"> chaise</label>
+    </div>
+
+    <button type="submit" class="btn-submit">Envoyer</button>
+  </form>
+
+  <p class="google-text">Les réponses seront enregistrées via Google Forms.</p>
+</section>
+
+</body>
+</html>
+
+
+
+
+
+
+

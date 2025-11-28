@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Password gate — demo</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;}
+    body{display:flex;min-height:100vh;align-items:center;justify-content:center;background:#f6f8fa;margin:0}
+    .card{background:white;padding:28px;border-radius:12px;box-shadow:0 6px 20px rgba(20,30,40,0.08);width:360px;max-width:92%}
+    h1{font-size:18px;margin:0 0 12px}
+    .hint{font-size:13px;color:#666;margin-bottom:14px}
+    .row{display:flex;gap:8px}
+    input[type=password]{flex:1;padding:10px 12px;border:1px solid #d9dbe0;border-radius:8px;font-size:14px}
+    .btn{padding:10px 14px;border-radius:10px;border:0;background:#0b5fff;color:white;font-weight:600;cursor:pointer}
+    .btn[hidden]{display:none}
+    .link-btn{display:inline-block;margin-top:16px;text-decoration:none;color:#0b5fff}
+    .success{color:green;margin-top:12px}
+  </style>
+</head>
+<body>
+  <main class="card" id="page1">
+    <h1>Enter password to continue</h1>
+    <p class="hint">Type the correct password. When it matches, a button will appear and take you to the second page.</p>
+
+    <div class="row" style="margin-bottom:8px">
+      <input id="pw" type="password" placeholder="Password" aria-label="Password" />
+      <button id="check" class="btn">Check</button>
+    </div>
+
+    <label style="display:flex;align-items:center;gap:8px;font-size:13px;color:#555">
+      <input id="show" type="checkbox" /> Show password
+    </label>
+
+    <div id="okRow" style="margin-top:14px">
+      <!-- This button is hidden until password is correct -->
+      <button id="goBtn" class="btn" hidden>Go to second page</button>
+      <div id="msg" role="status" aria-live="polite"></div>
+    </div>
+
+    <p style="font-size:12px;color:#888;margin-top:18px">Tip: change the hard-coded secret in the script if you want a different password.</p>
+  </main>
+
+  <!-- second "page" is inside the same file — clicking the button reveals it. You can change this to real navigation if you want. 
+  <main class="card" id="page2" style="display:none">
+    <h1>Second page</h1>
+    <p class="hint">You arrived at the second page. This is still the same HTML file — if you prefer to navigate to a separate file (e.g. second.html), I can update the code.</p>
+    <p class="success">Success — access granted.</p>
+    <button id="back" class="btn" style="margin-top:10px">Back</button>
+  </main><!DOCTYPE html> -->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entree</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+</body>
+
+  <script>
+    (function(){
+      // ✅ Change these values if you want a different secret or destination.
+      const SECRET = 'letmein'; // <-- change password here
+
+      const pw = document.getElementById('pw');
+      const check = document.getElementById('check');
+      const goBtn = document.getElementById('goBtn');
+      const msg = document.getElementById('msg');
+      const show = document.getElementById('show');
+      const page1 = document.getElementById('page1');
+      const page2 = document.getElementById('page2');
+      const back = document.getElementById('back');
+
+      function validate(){
+        const v = pw.value;
+        if(v === SECRET){
+          msg.textContent = 'Password correct.';
+          goBtn.removeAttribute('hidden');
+          goBtn.focus();
+          return true;
+        } else {
+          msg.textContent = v.length ? 'Password incorrect.' : '';
+          goBtn.setAttribute('hidden', '');
+          return false;
+        }
+      }
+
+      check.addEventListener('click', validate);
+
+      // allow Enter key to trigger the check
+      pw.addEventListener('keydown', function(e){
+        if(e.key === 'Enter'){
+          e.preventDefault(); validate();
+        }
+      });
+
+      show.addEventListener('change', function(){
+        pw.type = this.checked ? 'text' : 'password';
+      });
+
+      // When button clicked, show the second page (single-file demo). Replace this with
+      // `window.location = 'second.html'` if you'd rather navigate to a separate file.
+      goBtn.addEventListener('click', function(){
+        window.location.href = 'rsvp.html'
+      });
+
+      back.addEventListener('click', function(){
+        page2.style.display = 'none';
+        page1.style.display = '';
+        pw.focus();
+      });
+
+      // live-validate as the user types (optional)
+      pw.addEventListener('input', function(){
+        // small debounce to avoid too many checks
+        clearTimeout(pw._t);
+        pw._t = setTimeout(validate, 250);
+      });
+
+    })();
+  </script>
+</body>
+</html>

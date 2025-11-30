@@ -69,7 +69,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
   padding: 60px 20px;
 }
 .hero { height: 100vh;margin-left: 5%;; width: 90%; align-items:center; margin-top: 5%; } /* laisse place pour la nav */
-.tier-hero { height: 33vh; background: #fff; }
+.tier-hero { height: auto; background: #fff; flex-direction: column;}
 .deuxtierhero { height: 22vh; background: #c1af8f; }
 .demande { height: 50vh; }
 .information{height:auto; width:auto;justify-content: flex-start;padding: 5% 10%;
@@ -87,7 +87,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 .overlay-text .countdown { font-size: 2rem; margin-bottom: 10px; }
 .overlay-text .date { font-size: 2rem;}
 .overlay-text .lieu { font-size: 2rem; color: #ddd; }
-.overlay-text2 { color: #000;font-weight:lighter ;font-size: 0.8rem;}
+.overlay-text2 { color: #000;font-weight:lighter ;font-size: 1rem;margin: 3%;}
 .overlay-text3 { color: #000; font-size: 1.2rem;}
 .overlay-text4 { color: #fff; font-size: 2.5rem; font-weight: bold; }
 
@@ -97,7 +97,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 /* Texte info */
 .texteinfo {
   display: flex; flex-direction: column ; align-items: center; gap: 10px; 
-  max-width: 1200px; margin: 0 auto; padding: 0 10px; width: 100%;color: #000000;
+  max-width: 1200px; margin: 0 auto; padding: 0 5%; width: 100%;color: #000000;
   font-size: 1.2rem;  margin-bottom: 5%;
 }
 
@@ -158,6 +158,14 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 }
 
 
+.img {
+  width: 50%;      /* or any % you want */
+  max-width: 250px; /* optional: limit so it does not get too big on large screens */
+  height: auto;    /* keeps proportions */
+  display: block;
+  margin: 0 auto;  /* centers the image */
+}
+
 
 
 /*  Responsive mobile : tout en colonne */
@@ -207,7 +215,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 .rsvp-center img {  border-radius: 10px;  max-width: 100%;  height: auto;}
 /* Bouton stylé */
 .rsvp-button {  border: 2px solid #fff;  color: #fff;  padding: 10px 20px;  border-radius: 6px;  font-weight: bold;  text-decoration: none;
-  display: inline-block;  margin-top: 20px;  transition: all 0.2s;}
+  display: inline-block;  margin-top: 20px;  transition: all 0.2s; text-align: center;}
 
 .rsvp-button:hover {  background-color: #fff;  color: #222;}
 
@@ -274,7 +282,12 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 .chapitre-content {
   flex: 2;
 }
-
+.chapitre {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+   margin-bottom: 40px;
+}
 .image-chapitre {
   flex: 1;
   width: 100%;
@@ -284,8 +297,21 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
   border-radius: 12px;
   margin-bottom: 15px;
 }
-
+.image2-chapitre {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.images-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;  /* STACK IMAGES VERTICALLY */
+}
 .chapitre p {
+  display: flex;
   font-size: 1rem;
   line-height: 1.6;
   color: #444;

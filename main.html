@@ -6,6 +6,10 @@
   <title>ANNIK & JOAQUIM</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+
+
+
 <body>
 
 <nav>
@@ -39,15 +43,12 @@
 
 
   <!-- Section Hero -->
-  <section class="section-bg hero" style="background-image: url('image/main.jpg'); background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-                height: 100vh;">
+  <section class="section-bg hero" style="background-image: url('image/main.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center; height: 100vh;">
     <div class="overlay-text">
-      <p id="countdown" class="countdown">00 : 00 : 00 : 00></p>
-      <h1><br>ANNIK & JOAQUIM<br><br></h1>
-      <p class="date">8 et 9 août 2026<br><br><br><br></p>
-      <p class="lieu">Berghotel Chäserstatt<br><br></p>
+      <p id="countdown" class="countdown" style="margin-bottom: 10%">00 : 00 : 00 : 00></p>
+      <h1 style="margin-bottom: 10%">ANNIK & JOAQUIM</h1>
+      <p class="date" style="margin-bottom: 5%">8 et 9 août 2026</p>
+      <p class="lieu" style="margin-bottom: 2%">Berghotel Chäserstatt</p>
     </div>
   </section>
 
@@ -93,9 +94,9 @@
 
   <section class="section-bg deuxtierhero">
     <div class="texteinfo">
-      <p>Quand ?</p><br>
-      <p>Du samedi 8 au dimanche 9 août 2026</p><br>
-      <p>Où ?</p><br>
+      <p style="margin-bottom: 0%">Quand ?</p>
+      <p  style="margin-bottom: 5%">Du samedi 8 au dimanche 9 août 2026</p>
+      <p style="margin-bottom: 0%">Où ?</p>
       <p style="margin-bottom: 2.5rem">Au Berghotel Chäserstatt, 3995 Ernen, Valais</p><br>
       <!-- 
       <div style="text-align: left; margin-left: 10%;margin-bottom: 2.5rem; font-size: 1.3rem;">
@@ -232,7 +233,7 @@
 
           <br><p class="information-cont">Vous allez pouvoir nous indiquez votre préférence parmi les différentes options ci-dessus dans le
           RSVP afin que nous puissions vous répartir dans les différentes chambres. Si besoin nous vous
-          contacterons directement à ce sujet.</p>
+          contacterons directement à ce sujet.<br><br></p>
 
         <br><h2 class="information-titre-main">Arrivée et départ</h2>
           <br><p class="information-cont">Le mariage se déroulera sur deux jours : samedi et dimanche.<br>
@@ -279,7 +280,7 @@
       </details>
       <details class="faq-item">
         <summary>Y a-t-il un dress code ?</summary>
-        <p>Soyez beaux mains moins beaux que nous 😉😘<p>
+        <p>Soyez beaux mais moins beaux que nous 😉😘<p>
       </details>
       <details class="faq-item">
         <summary>Le mariage se déroule-t-il en intérieur ou en extérieur ?</summary>
@@ -398,4 +399,25 @@
 
 
 </body>
+
+<script>
+let lastScroll = 0;
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+
+  // Scroll down → hide nav
+  if (currentScroll > lastScroll && currentScroll > 50) {
+    nav.style.transform = "translateY(-100%)";
+  } 
+  // Scroll up → show nav
+  else {
+    nav.style.transform = "translateY(0)";
+  }
+
+  lastScroll = currentScroll;
+});
+</script>
+
 </html>

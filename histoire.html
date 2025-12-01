@@ -138,6 +138,27 @@
   </section>
 
 </body>
+
+<script>
+let lastScroll = 0;
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+
+  // Scroll down → hide nav
+  if (currentScroll > lastScroll && currentScroll > 50) {
+    nav.style.transform = "translateY(-100%)";
+  } 
+  // Scroll up → show nav
+  else {
+    nav.style.transform = "translateY(0)";
+  }
+
+  lastScroll = currentScroll;
+});
+</script>
+
 </html>
 
 

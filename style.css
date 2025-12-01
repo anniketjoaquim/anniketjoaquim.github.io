@@ -19,6 +19,7 @@ nav {
   padding: 0 30px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 10;
+  transition: transform 0.3s ease;
 }
 
 .nav-left,
@@ -83,8 +84,8 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 
 /* === Overlay textes === */
 .overlay-text { color: white; }
-.overlay-text h1 { font-family: 'Univers Condensed Light'; font-size: 4rem; font-weight: bold; margin: 10px 0; }
-.overlay-text .countdown { font-size: 2rem; margin-bottom: 10px; }
+.overlay-text h1 { font-family: 'Univers Condensed Light'; font-size: 4rem; font-weight: bold;}
+.overlay-text .countdown { font-size: 2rem; }
 .overlay-text .date { font-size: 2rem;}
 .overlay-text .lieu { font-size: 2rem; color: #ddd; }
 .overlay-text2 { color: #000;font-weight:lighter ;font-size: 1rem;margin: 3%;}
@@ -96,7 +97,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 
 /* Texte info */
 .texteinfo {
-  display: flex; flex-direction: column ; align-items: center; gap: 10px; 
+  display: flex; flex-direction: column ; align-items: center; 
   max-width: 1200px; margin: 0 auto; padding: 0 5%; width: 100%;color: #000000;
   font-size: 1.2rem;  margin-bottom: 5%;
 }
@@ -202,7 +203,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 
 /* === rsvp === */
 
-.rsvp {  width: 100%;  height: auto;  padding: 5% 10%;  background-color: #222; color: #f5f5f5;  border-radius: 10px;
+.rsvp {  width: 100%;  height: auto;  padding: 5% 10%;  background-color: #222; color: #f5f5f5;  
 }
 
 /* Titres et textes */
@@ -238,7 +239,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 /* === Histoire pager autre === */
 .histoire-page {
   padding: 120px 10% 60px; /* espace en haut pour éviter la nav fixe */
-  background: #e0c47e;
+  background: #ffc796;
   min-height: 100vh;
   text-align: center;
 

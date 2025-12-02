@@ -10,13 +10,9 @@ body { font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucid
 
 /* === Navigation === */
 nav {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 60px;
-  background: white;
-  display: flex;
-  align-items: center;
-  padding: 0 30px;
+  position: fixed; top: 0; left: 0; width: 100%; height: 60px;
+  background: white;  display: flex;
+  align-items: center;  padding: 0 30px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 10;
   transition: transform 0.3s ease;
@@ -77,8 +73,8 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 }
 .information-titre-main{justify-content: center;align-items: center; text-align: center}
 .information-titre{text-align: left;margin-left: 10%; }
+.information-intro{text-align: left;margin-left: 0%; text-align: justify;}
 .information-cont{text-align: left;margin-left: 5%; text-align: justify;}
-
 
 
 

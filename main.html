@@ -32,9 +32,9 @@
       <div class="dropdown-langue">
         <button class="btn-langue">🌍 Langue</button>
         <div class="dropdown-content">
-          <a href="main.html">Français</a>
-          <a href="English.html">English</a>
-          <a href="Deutsch.html">Deutsch</a>
+          <a href="#" onclick="setLang('fr'); return false;">Français</a>
+          <a href="#" onclick="setLang('en'); return false;">English</a>
+          <a href="#" onclick="setLang('de'); return false;">Deutsch</a>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@
   <!-- Zone beige -->
   <section class="section-bg deuxtierhero">
     <div class="overlay-text3">
-      <h1>Le weekend de la fête de l'amour</h1>
+      <h1 id="fete">Le weekend de la fête de l'amour</h1>
     </div>
   </section>
 
@@ -183,12 +183,12 @@
     <div>
       
       <h1 class="information-titre-main" >Informations importantes</h1>
-        <br><br><p class="information-cont">
+        <br><br><p class="information-intro">
           Avant de préparer vos valises, prenez quelques minutes pour lire attentivement les informations ci-dessous. Elles vous aideront à organiser votre venue, savoir comment accéder au lieu, où dormir et à quoi vous attendre sur place. <br>
           Rien de compliqué, promis — mais quelques petits détails pratiques à connaître pour que tout se passe au mieux !</p>
 
         <br><br><h2 class="information-titre-main">Transport</h2>
-          <br><p class="information-cont">Le lieu du mariage n’est pas accessible en transports publics. La station de train la plus proche est celle de Fiesch. Depuis là une voiture est nécessaire. Si vous prévoyez de venir en transports
+          <br><p class="information-intro">Le lieu du mariage n’est pas accessible en transports publics. La station de train la plus proche est celle de Fiesch. Depuis là une voiture est nécessaire. Si vous prévoyez de venir en transports
           publiques dites-le nous assez tôt pour que nous puissions nous arranger pour le dernier petit bout.<br>
           Au bout du village de Mühlebach, lieu juste avant la dernière montée, il y a un grand espace où il est
           possible de se garer gratuitement. Voici les coordonnées du parking gratuit de Mühlebach : 46°24'36.0"N
@@ -205,7 +205,7 @@
 
         <br><h2 class="information-titre-main">Logement</h2>
 
-          <br><p class="information-cont">Nous aimerions beaucoup que tous nos invités puissent rester sur place pour profiter pleinement du weekend ensemble. Cependant, il n’y a pas assez de lits pour tout le monde.
+          <br><p class="information-intro">Nous aimerions beaucoup que tous nos invités puissent rester sur place pour profiter pleinement du weekend ensemble. Cependant, il n’y a pas assez de lits pour tout le monde.
 
           <br><br>Voici donc les différentes possibilités qui s'offrent à vous:<br><br></p>
 
@@ -236,7 +236,7 @@
           contacterons directement à ce sujet.<br><br></p>
 
         <br><h2 class="information-titre-main">Arrivée et départ</h2>
-          <br><p class="information-cont">Le mariage se déroulera sur deux jours : samedi et dimanche.<br>
+          <br><p class="information-intro">Le mariage se déroulera sur deux jours : samedi et dimanche.<br>
           Nous, les mariés, serons déjà sur place quelques jours avant. Si certains souhaitent venir plus tôt
           pour profiter du lieu ce serait avec grand plaisir !<br>
           Ce sera un peu comme des mini-vacances à la montagne, ambiance détendue et apéros improvisés.
@@ -396,6 +396,35 @@
     </a>
   </div>
 </section>
+
+
+<script>
+  // Choose language (saved between pages)
+  const lang = localStorage.getItem("lang") || "fr"; // default = French
+
+  // Load the correct JSON file
+  fetch(`lang/${lang}.json`)
+    .then(response => response.json())
+    .then(translations => {
+      // Replace all text by ID
+      for (const id in translations) {
+        const element = document.getElementById(id);
+        if (element) {
+          element.textContent = translations[id];
+        }
+      }
+    })
+    .catch(error => console.error("Translation error:", error));
+
+  // Buttons to switch languages (optional)
+  function setLang(language) {
+    localStorage.setItem("lang", language);
+    location.reload();
+  }
+
+</script>
+
+
 
 
 </body>

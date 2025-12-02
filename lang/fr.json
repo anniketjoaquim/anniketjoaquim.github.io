@@ -1,4 +1,13 @@
 {
-  "fete": "La fet de la reussite"
+    "_comment": "bar nav",
+
+  "nav_fete": "La fête",
+  "nav_histoire":"Notre histoire",
+  "nav_info":"Info",
+  "nav_info":"FAQ",
+  "nav_rsvp":"RSVP",
+  "nav_langue":"Langues",
+  "acc_date":"8 et 9 août 2026",
+  "acc_countdown": "C'est le jour J"
 
 }

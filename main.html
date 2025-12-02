@@ -19,18 +19,18 @@
 
   <div class="nav-center">
     <div class="menu">
-      <a href="#fete">La fête</a>
-      <a href="#histoire">Notre histoire</a>
-      <a href="#Informations">Info</a>
-      <a href="#faq">FAQ</a>
+      <a id="fete" href="#fete"></a>
+      <a id="nav_histoire" href="#histoire"></a>
+      <a id="nav_info" href="#Informations"></a>
+      <a id="nav_info" href="#faq"></a>
     </div>
   </div>
 
   <div class="nav-right">
     <div class="menu">
-      <a href="rsvp.html" class="btn-rsvp">RSVP</a>
+      <a id="nav_rsvp" href="rsvp.html" class="btn-rsvp"></a>
       <div class="dropdown-langue">
-        <button class="btn-langue">🌍 Langue</button>
+        <button id="nav_langue" class="btn-langue">🌍 Langue</button>
         <div class="dropdown-content">
           <a href="#" onclick="setLang('fr'); return false;">Français</a>
           <a href="#" onclick="setLang('en'); return false;">English</a>
@@ -47,19 +47,19 @@
     <div class="overlay-text">
       <p id="countdown" class="countdown" style="margin-bottom: 10%">00 : 00 : 00 : 00></p>
       <h1 style="margin-bottom: 10%">ANNIK & JOAQUIM</h1>
-      <p class="date" style="margin-bottom: 5%">8 et 9 août 2026</p>
+      <p id="acc_date" class="date" style="margin-bottom: 5%"></p>
       <p class="lieu" style="margin-bottom: 2%">Berghotel Chäserstatt</p>
     </div>
   </section>
 
   <!-- Compte à rebours -->
   <script>
-    const eventDate = new Date("2026-08-08T00:00:00").getTime();
+    const eventDate = new Date("2025-08-08T00:00:00").getTime();
     function updateCountdown() {
       const now = new Date().getTime();
       const distance = eventDate - now;
       if (distance < 0) {
-        document.getElementById("countdown").innerHTML = "C'est le grand jour ";
+        document.getElementById("countdown").innerHTML = document.getElementById("countdown").textContent;;
         return;
       }
       const d = Math.floor(distance / (1000*60*60*24));

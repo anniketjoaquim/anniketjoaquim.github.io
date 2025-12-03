@@ -46,7 +46,7 @@
   <section class="section-bg hero" style="background-image: url('image/main.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center; height: 90vh;">
     <div class="overlay-text">
       <p id="countdown" class="countdown" style="margin-bottom: 10%">00 : 00 : 00 : 00></p>
-      <h1 style="margin-bottom: 10% ; font-size: clamp(1.8rem, 4vw, 3.4rem)">ANNIK & JOAQUIM</h1>
+      <h1 style="margin-bottom: 10% ; font-size: clamp(2rem, 3.5vw, 3.4rem)">ANNIK & JOAQUIM</h1>
       <p id="acc_date" class="date" style="margin-bottom: 5%"></p>
       <p class="lieu" style="margin-bottom: 2%">Berghotel Chäserstatt</p>
     </div>
@@ -70,16 +70,16 @@
   <!-- Zone beige -->
   <section class="section-bg deuxtierhero">
     <div class="overlay-text3">
-      <h1 id="fete">Le weekend de la fête de l'amour</h1>
+      <h1 id="date_weekend"></h1>
     </div>
   </section>
 
   <section class="section-bg deuxtierhero">
     <div class="texteinfo">
-      <p style="margin-bottom: 0%">Quand ?</p>
-      <p  style="margin-bottom: 5%">Du samedi 8 au dimanche 9 août 2026</p>
-      <p style="margin-bottom: 0%">Où ?</p>
-      <p style="margin-bottom: 2.5rem">Au Berghotel Chäserstatt, 3995 Ernen, Valais</p><br>
+      <p style="margin-bottom: 0%" id="date_quand"></p>
+      <p  style="margin-bottom: 5%" id="date_quandrep"></p>
+      <p style="margin-bottom: 0%" id="date_ou"></p>
+      <p style="margin-bottom: 2.5rem" id="date_ourep"></p><br>
       <!-- 
       <div style="text-align: left; margin-left: 10%;margin-bottom: 2.5rem; font-size: 1.3rem;">
         <p>Date</p><br>
@@ -94,11 +94,11 @@
 
   <!-- Timeline -->
   <section id="fete" class="timeline">
-    <h2>Déroulement du weekend</h2>
+    <h2 id="horaire_titre"></h2>
     <div class="timeline-items">
       <div class="timeline-item left">
         <div class="content">
-          <h3>14H00 – Accueil 🍸</h3>
+          <h3 id="horaire_t1"></h3>
           <p>Boisson de bienvenue</p>
         </div>
       </div>

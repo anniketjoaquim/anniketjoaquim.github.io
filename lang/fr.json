@@ -8,6 +8,26 @@
   "nav_rsvp":"RSVP",
   "nav_langue":"Langues",
   "acc_date":"8 et 9 août 2026",
-  "countdown-finish": "C'est le jour J"
+
+
+
+  "countdown-finish": "C'est le jour J",
+
+
+  "_comment": "date",
+
+  "date_weekend":"Le weekend de la fête de l'amour",
+  "date_quand":"Quand ?",
+  "date_quandrep":"Du samedi 8 au dimanche 9 août 2026",
+  "date_ou":"Où ?",
+  "date_ourep":"Au Berghotel Chäserstatt, 3995 Ernen, Valais",
+
+
+  "_comment": "horaire",
+
+  "horaire_titre": "Déroulement du weekend",
+  "horaire_t1":"14H00 – Accueil 🍸"
+
+
 
 }

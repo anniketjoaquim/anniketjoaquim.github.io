@@ -6,7 +6,7 @@
   "nav_info":"Info",
   "nav_faq":"FAQ",
   "nav_rsvp":"RSVP",
-  "nav_langue":"Langues",
+  "nav_langue":"🌍 Langues",
   "acc_date":"8 et 9 août 2026",
 
 
@@ -99,5 +99,39 @@
   "faq_trans_heberg_quest4":"Où dormir ?",
   "faq_trans_heberg_rep4":"Comme mentionné dans la section « Informations importantes ». Plusieurs s’options s’offrent à vous. Nous vous laisserons le soin de choisir celle que vous préférez lorsque que vous remplirez le RSVP.",
   "faq_trans_heberg_qest5":"Où et quand pouvons-nous déposer nos bagages ?",
-  "faq_trans_heberg_rep5":"Comme mentionné dans la section « Informations importantes ». Si votre chambre est prête à votre arrivée vous pourrez vous y installer avant la cérémonie. Si ce n’est pas le cas, les chambres seront à disposition à 16h au plus tard. Dans tous les cas vous aurez un espace à disposition pour y déposer vos bagages.<br>Pour ceux qui dorment sous tente nous vous conseillons de compter un peu de temps de marge et de l’installer dès votre arrivée, avant la cérémonie. Installer une tente dans la nuit et possiblement saoul n’est pas si facile (on ne parle pas d’expérience)."
+  "faq_trans_heberg_rep5":"Comme mentionné dans la section « Informations importantes ». Si votre chambre est prête à votre arrivée vous pourrez vous y installer avant la cérémonie. Si ce n’est pas le cas, les chambres seront à disposition à 16h au plus tard. Dans tous les cas vous aurez un espace à disposition pour y déposer vos bagages.<br>Pour ceux qui dorment sous tente nous vous conseillons de compter un peu de temps de marge et de l’installer dès votre arrivée, avant la cérémonie. Installer une tente dans la nuit et possiblement saoul n’est pas si facile (on ne parle pas d’expérience).",
+  "faq_repas_titre":"Repas & allergies",
+  "faq_repas_qest1":"J’ai un régime particulier, que faire ?",
+  "faq_repas_rep1":"Le repas sera sous forme de buffet, il y aura de tout pour tout le monde.",
+  "faq_repas_quest2":"J’ai des allergies, que faire ?",
+  "faq_repas_rep2":"Vous pourrez lister vos allergies au moment où vous compléterez le RSVP.",
+  "faq_prog_titre":"Programme & organisation",
+  "faq_prog_quest1":"Y a-t-il une fête le lendemain ?",
+  "faq_prog_rep1":"Il y a un petit déjeuner offert sur place entre 8h et 10h.",
+  "faq_prog_quest2":"Pouvons-nous venir avant ou rester plus longtemps ?",
+  "faq_prog_rep2":"Avec grand plaisir, nous y serons plusieurs jours avant et après.",
+  "faq_enfant_titre":"Enfants & accompagnants",
+  "faq_enfant_quest1":"Y aura-t-il un espace ou une animation pour les enfants ?",
+  "faq_enfant_rep1":"Il y a une salle de jeux mais pas d’animations.",
+  "faq_enfant_quest2":"Y a-t-il des lits et chaises pour bébé sur place ?",
+  "faq_enfant_rep2":"Oui, les deux. Vous pourrez nous indiquer vos besoins à ce niveau au moment où vous compléterez le RSVP.",
+  "faq_enfant_quest3":"Puis-je venir avec un +1 ?",
+  "faq_enfant_rep3":"Les invitations sont nominative, nous souhaitons que le mariage reste un moment intime et à taille humaine, pour pouvoir profiter pleinement de chaque personne présente.<br>Merci beaucoup pour votre compréhension et on se réjouit de vous compter parmi nous pour cette belle journée.",
+  "faq_divers_titre":"Divers",
+  "faq_divers_quest1":"Pouvons-nous prendre des photos pendant la cérémonie et la fête?",
+  "faq_divers_rep1":"Oui avec plaisir",
+  "faq_divers_quest2":"Jusqu’à quand confirmer ma présence ?",
+  "faq_divers_rep2":"Veuillez confirmer votre présence avant la fin de l’année civile 2025, donc au plus tard le 31 décembre 2025. Merci. Pour information, chaque invité doit remplir le RSVP.",
+
+
+  "7_comment":"RSVP",
+
+  "sect_rsvp_titre":"Si vous avez d’autres questions, vous pouvez nous joindre au :",
+  "sect_rsvp_cont":"Nous serons trois à célébrer cet amour, nous aimerions que vous soyez là avec nous.",
+  "sect_rsvp_button":"RSVP avant le 31.12.2025"
+
+
+
+
+
 }

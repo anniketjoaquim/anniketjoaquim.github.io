@@ -30,7 +30,7 @@
     <div class="menu">
       <a id="nav_rsvp" href="rsvp.html" class="btn-rsvp"></a>
       <div class="dropdown-langue">
-        <button id="nav_langue" class="btn-langue">🌍 Langue</button>
+        <button id="nav_langue" class="btn-langue"></button>
         <div class="dropdown-content">
           <a href="#" onclick="setLang('fr'); return false;">Français</a>
           <a href="#" onclick="setLang('en'); return false;">English</a>
@@ -133,7 +133,7 @@
       <div class="timeline-item left">
         <div class="content">
           <h3 id="horaire_t7a"></h3>
-          <p id="horaire_t7b">Pour les lève-tôt</p>
+          <p id="horaire_t7b"></p>
         </div>
       </div>
     </div>
@@ -252,59 +252,55 @@
       </details>
     </div>
     <div class="faq-category">
-      <h3>Repas & allergies</h3>
+      <h3 id="faq_repas_titre"></h3>
       <details class="faq-item">
-        <summary>J’ai un régime particulier, que faire ?</summary>
-        <p>Le repas sera sous forme de buffet, il y aura de tout pour tout le monde.</p>
+        <summary id="faq_repas_qest1"></summary>
+        <p id="faq_repas_rep1"></p>
       </details>
       <details class="faq-item">
-        <summary>J’ai des allergies, que faire ?</summary>
-        <p>Vous pourrez lister vos allergies au moment où vous compléterez le RSVP.<p>
-      </details>
-
-    </div>
-    <div class="faq-category">
-      <h3>Programme & organisation</h3>
-      <details class="faq-item">
-        <summary>Y a-t-il une fête le lendemain ?</summary>
-        <p>Il y a un petit déjeuner offert sur place entre 8h et 10h.<p>
-      </details>
-      <details class="faq-item">
-        <summary>Pouvons-nous venir avant ou rester plus longtemps ?</summary>
-        <p>Avec grand plaisir, nous y serons plusieurs jours avant et après.<p>
+        <summary id="faq_repas_quest2"></summary>
+        <p id="faq_repas_rep2"><p>
       </details>
 
     </div>
     <div class="faq-category">
-      <h3>Enfants & accompagnants</h3>
+      <h3 id="faq_prog_titre"></h3>
       <details class="faq-item">
-        <summary>Y aura-t-il un espace ou une animation pour les enfants ?</summary>
-        <p>Il y a une salle de jeux mais pas d’animations. <p>
+        <summary id="faq_prog_quest1"></summary>
+        <p id="faq_prog_rep1"><p>
       </details>
       <details class="faq-item">
-        <summary>Y a-t-il des lits et chaises pour bébé sur place ?</summary>
-        <p>Oui, les deux. Vous pourrez nous indiquer vos besoins à ce niveau au moment où vous compléterez le RSVP.<p>
+        <summary id="faq_prog_quest2"></summary>
+        <p id="faq_prog_rep2"><p>
       </details>
-      <details class="faq-item">
-        <summary>Puis-je venir avec un +1 ?</summary>
-        <p>Les invitations sont nominative, nous souhaitons que le mariage reste un moment intime et à taille humaine, pour pouvoir profiter pleinement de chaque personne présente.<br> 
-        Merci beaucoup pour votre compréhension et on se réjouit de vous compter parmi nous pour cette belle journée.<p>
-      </details>
+
     </div>
     <div class="faq-category">
-      <h3>Divers</h3>
+      <h3 id="faq_enfant_titre"></h3>
       <details class="faq-item">
-        <summary>Pouvons-nous prendre des photos pendant la cérémonie et la fête?</summary>
-        <p>Oui avec plaisir.<p>
+        <summary id="faq_enfant_quest1"></summary>
+        <p id="faq_enfant_rep1"><p>
       </details>
       <details class="faq-item">
-        <summary>Jusqu’à quand confirmer ma présence ?</summary>
-        <p>Veuillez confirmer votre présence avant la fin de l’année civile 2025, donc au plus tard le 31 décembre 2025. Merci. Pour information, chaque invité doit remplir le RSVP.<p>
+        <summary id="faq_enfant_quest2"></summary>
+        <p id="faq_enfant_rep2"><p>
+      </details>
+      <details class="faq-item">
+        <summary id="faq_enfant_quest3"></summary>
+        <p id="faq_enfant_rep3"><p>
+      </details>
+    </div>
+    <div cla id="faq_divers_titre"></h3>
+      <details class="faq-item">
+        <summary id="faq_divers_quest1"></summary>
+        <p id="faq_divers_rep1"><p>
+      </details>
+      <details class="faq-item">
+        <summary id="faq_divers_quest2"></summary>
+        <p id="faq_divers_rep2"><p>
       </details>
     </div>   
-    <div class="rsvp-titre">
-      Si vous avez d’autres questions, vous pouvez nous joindre au :
-    </div>
+    <div class="rsvp-titre" id="rsvp_titre"></div>
 
     <div class="rsvp-info"><br>
       +41 (0)78 872 79 95 (Annik)<br>
@@ -319,13 +315,11 @@
     <img src="image/rsvp.jpg" alt="Photo de famille" class="img" />
   </div>
 
-  <div class="rsvp-text">
-    Nous serons trois à célébrer cet amour, nous aimerions que vous soyez là avec nous.
-  </div>
+  <div class="rsvp-text" id="sect_rsvp_cont"></div>
 
   <div class="rsvp-center">
-    <a href="rsvp.html" class="rsvp-button">
-      RSVP avant le 31.12.2025
+    <a href="rsvp.html" class="rsvp-button" id="sect_rsvp_button">
+      
     </a>
   </div>
 </section>

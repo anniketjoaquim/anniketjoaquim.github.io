@@ -141,29 +141,34 @@
 
 
 <script>
-  let translations = {}; // <-- global
+let translations = {};
+const lang = localStorage.getItem("lang") || "fr";
 
-  const lang = localStorage.getItem("lang") || "fr";
+fetch(`lang/${lang}.json`)
+  .then(response => response.json())
+  .then(data => {
+    translations = data;
 
-  fetch(`lang/${lang}.json`)
-    .then(response => response.json())
-    .then(data => {
-      translations = data;
+    for (const id in translations) {
+      const element = document.getElementById(id);
+      if (!element) continue;
 
-      // Apply all translated texts
-      for (const id in translations) {
-        const element = document.getElementById(id);
-        if (element) {
-          element.innerHTML = translations[id];
-        }
+      // if label has <span class="label-text"> update only it
+      const span = element.querySelector(".label-text");
+      if (span) {
+        span.textContent = translations[id];
+      } else {
+        element.textContent = translations[id];
       }
-    });
+    }
+  });
 
-  function setLang(language) {
-    localStorage.setItem("lang", language);
-    location.reload();
-  }
+function setLang(language) {
+  localStorage.setItem("lang", language);
+  location.reload();
+}
 </script>
+
 
 </body>
 

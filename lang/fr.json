@@ -184,5 +184,18 @@
   "rsvp_heberg_rep2":"Je souhaite dormir dans une chambre du Berghotel Chäserstatt (surpalce)",
   "rsvp_heberg_rep3":"e ne dormirai pas sur place et me débrouille par mes prorpes moyens pour ce qui concerne le logement",
   "rsvp_heberg_rep4":"Je veux La tente",
-  "rsvp_heberg_rep5":"Dormir? Pourquoi?"
+  "rsvp_heberg_rep5":"Dormir? Pourquoi?",
+  "rsvp_heberg_com":"Commentaire :",
+
+  "rsvp_music":"Musique",
+  "rsvp_music_cont":"Si vous ne voulez pas entendre du Disney toute la nuit, n'hésitez pas à nous faire part de votre titre incontournable pour une bonne soirée.",
+
+  "rsvp_bebe":"Matériel bébé",
+  "rsvp_bebe_rep1":"J'ai besoin d'un lit pour bébé",
+  "rsvp_bebe_rep2":"J'ai besoin d'une chaise haute pour bébé",
+ 
+  "rsvp_reponse":"Envoyer",
+
+  "rsvp_validation":"Les réponses seront enregistrées via Google Forms."
+
 }

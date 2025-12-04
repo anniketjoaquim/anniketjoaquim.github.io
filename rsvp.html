@@ -152,12 +152,21 @@
 
       // Apply all translated texts
       for (const id in translations) {
-        const element = document.getElementById(id);
-        if (element) {
-          element.innerHTML = translations[id];
-        }
-      }
-    });
+  const element = document.getElementById(id);
+
+  if (!element) continue;
+
+  // 1️⃣ If it contains a <span class="label-text"> update only text
+  const span = element.querySelector(".label-text");
+  if (span) {
+    span.textContent = translations[id];
+    continue;
+  } }
+
+  // 2️⃣ Otherwise it's a normal text node → update normally
+  element.textContent = translations[id];
+}
+);
 
   function setLang(language) {
     localStorage.setItem("lang", language);

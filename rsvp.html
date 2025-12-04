@@ -281,43 +281,35 @@
   <p class="google-text" id="rsvp_validation"></p>
 </section>
 
-
 <script>
-  let translations = {}; // <-- global
+let translations = {};
+const lang = localStorage.getItem("lang") || "fr";
 
-  const lang = localStorage.getItem("lang") || "fr";
+fetch(`lang/${lang}.json`)
+  .then(response => response.json())
+  .then(data => {
+    translations = data;
 
-  fetch(`lang/${lang}.json`)
-    .then(response => response.json())
-    .then(data => {
-      translations = data;
-
-      // Apply all translated texts
-      for (const id in translations) {
+    for (const id in translations) {
       const element = document.getElementById(id);
-        if (!element) continue;
+      if (!element) continue;
 
-        const span = element.querySelector(".label-text");
+      // if label has <span class="label-text"> update only it
+      const span = element.querySelector(".label-text");
+      if (span) {
+        span.textContent = translations[id];
+      } else {
+        element.textContent = translations[id];
+      }
+    }
+  });
 
-        if (span) {
-          span.textContent = translations[id];   // radio / checkbox labels
-        } else {
-        element.textContent = translations[id]; // normal text blocks
-  }
+function setLang(language) {
+  localStorage.setItem("lang", language);
+  location.reload();
 }
-
-
-  // 2️⃣ Otherwise it's a normal text node → update normally
-  element.textContent = translations[id];
-}
-);
-
-  function setLang(language) {
-    localStorage.setItem("lang", language);
-    location.reload();
-  }
-  
 </script>
+
 
 </body>
 </html>

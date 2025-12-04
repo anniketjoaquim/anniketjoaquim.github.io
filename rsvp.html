@@ -152,16 +152,18 @@
 
       // Apply all translated texts
       for (const id in translations) {
-  const element = document.getElementById(id);
+      const element = document.getElementById(id);
+        if (!element) continue;
 
-  if (!element) continue;
+        const span = element.querySelector(".label-text");
 
-  // 1️⃣ If it contains a <span class="label-text"> update only text
-  const span = element.querySelector(".label-text");
-  if (span) {
-    span.textContent = translations[id];
-    continue;
-  } }
+        if (span) {
+          span.textContent = translations[id];   // radio / checkbox labels
+        } else {
+        element.textContent = translations[id]; // normal text blocks
+  }
+}
+
 
   // 2️⃣ Otherwise it's a normal text node → update normally
   element.textContent = translations[id];

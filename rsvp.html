@@ -71,10 +71,10 @@
     <!-- PRÉSENCE -->
     <h2 id="rsvp_presence"></h2> 
     <div class="radio-group">
-        <label id="rsvp_presence_rep1"><input type="radio" name="entry.279183771" value="vendredi" ><span class="label-text"></span></label>
-        <label id="rsvp_presence_rep2"><input type="radio" name="entry.279183771" value="semdi + dimanche"><span class="label-text"></span></label>
-        <label id="rsvp_presence_rep3"><input type="radio" name="entry.279183771" value="samedi" ><span class="label-text"></span></label>
-        <label id="rsvp_presence_rep4"><input type="radio" name="entry.279183771" value="absent" ><span class="label-text"></span></label>
+        <label id="rsvp_presence_rep1"><input type="radio" name="entry.279183771" value="vendredi" required><span class="label-text"></span></label>
+        <label id="rsvp_presence_rep2"><input type="radio" name="entry.279183771" value="semdi + dimanche"required><span class="label-text"></span></label>
+        <label id="rsvp_presence_rep3"><input type="radio" name="entry.279183771" value="samedi" required><span class="label-text"></span></label>
+        <label id="rsvp_presence_rep4"><input type="radio" name="entry.279183771" value="absent"required ><span class="label-text"></span></label>
     </div>
      <div class="input-group textarea-container">
         <label id="rsvp_presence_commentaire"></label>
@@ -90,26 +90,26 @@
     <h2 id="rsvp_heberg"></h2>
       <div class="radio-group">
         <label id="rsvp_heberg_rep1">
-          <input type="radio" name="entry.667456340" value="tente sur place">
+          <input type="radio" name="entry.667456340" value="tente sur place" required>
           <span class="label-text"></span>
         </label>
           <label id="rsvp_heberg_rep2">
-              <input type="radio" name="entry.667456340" value="chambre hotel">
+              <input type="radio" name="entry.667456340" value="chambre hotel"required>
               <span   class="label-text"></span>
           </label>
 
           <label id="rsvp_heberg_rep3">
-              <input type="radio" name="entry.667456340" value="mes moyens">
+              <input type="radio" name="entry.667456340" value="mes moyens"required>
               <span class="label-text"></span>
           </label>
 
           <label id="rsvp_heberg_rep4">
-              <input type="radio" name="entry.667456340" value="je veux une tente">
+              <input type="radio" name="entry.667456340" value="je veux une tente"required>
               <span class="label-text"></span>
           </label>
 
           <label id="rsvp_heberg_rep5">
-              <input type="radio" name="entry.667456340" value="dormir pk?">
+              <input type="radio" name="entry.667456340" value="dormir pk?"required>
               <span class="label-text"></span>
           </label>
       </div>
@@ -167,38 +167,6 @@ function setLang(language) {
 }
 </script>
 
-<script>
-document.getElementById("form").addEventListener("submit", function (event) {
-
-  const name = document.getElementById("name").value.trim();
-  const presence = document.querySelector('input[name="entry.279183771"]:checked');
-  const heberg = document.querySelector('input[name="entry.667456340"]:checked');
-
-  // Validate name
-  if (name === "") {
-    event.preventDefault();
-    alert("Veuillez indiquer votre nom ✍️");
-    document.getElementById("name").scrollIntoView({ behavior: "smooth", block: "center" });
-    return;
-  }
-
-  // Validate presence
-  if (!presence) {
-    event.preventDefault();
-    alert("Merci d'indiquer votre présence 🗓️");
-    document.getElementById("rsvp_presence").scrollIntoView({ behavior: "smooth", block: "center" });
-    return;
-  }
-
-  // Validate hébergement
-  if (!heberg) {
-    event.preventDefault();
-    alert("Merci de choisir une option d’hébergement 🛏️");
-    document.getElementById("rsvp_heberg").scrollIntoView({ behavior: "smooth", block: "center" });
-    return;
-  }
-});
-</script>
 
 
 </body>

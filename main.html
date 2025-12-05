@@ -329,30 +329,7 @@
 </section>
 
 
-<script>
-  let translations = {}; // <-- global
 
-  const lang = localStorage.getItem("lang") || "fr";
-
-  fetch(`lang/${lang}.json`)
-    .then(response => response.json())
-    .then(data => {
-      translations = data;
-
-      // Apply all translated texts
-      for (const id in translations) {
-        const element = document.getElementById(id);
-        if (element) {
-          element.innerHTML = translations[id];
-        }
-      }
-    });
-
-  function setLang(language) {
-    localStorage.setItem("lang", language);
-    location.reload();
-  }
-</script>
 
 
 <script>
@@ -387,6 +364,31 @@
 <div id="countdown"></div>
 <span id="countdown-finish" style="display:none;"></span>
 
+
+<script>
+  let translations = {}; // <-- global
+
+  const lang = localStorage.getItem("lang") || "fr";
+
+  fetch(`lang/${lang}.json`)
+    .then(response => response.json())
+    .then(data => {
+      translations = data;
+
+      // Apply all translated texts
+      for (const id in translations) {
+        const element = document.getElementById(id);
+        if (element) {
+          element.innerHTML = translations[id];
+        }
+      }
+    });
+
+  function setLang(language) {
+    localStorage.setItem("lang", language);
+    location.reload();
+  }
+</script>
 
 </body>
 

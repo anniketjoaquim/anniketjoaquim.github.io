@@ -307,7 +307,6 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
   flex-direction: column;  /* STACK IMAGES VERTICALLY */
 }
 .chapitre p {
-  display: flex;
   white-space: pre-line;
   font-size: 1rem;
   line-height: 1.6;

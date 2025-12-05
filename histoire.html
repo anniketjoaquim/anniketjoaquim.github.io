@@ -123,7 +123,10 @@
       for (const id in translations) {
         const element = document.getElementById(id);
         if (element) {
-          element.innerHTML = translations[id];
+          let text = translations[id];
+          text = text.replace(/\t/g, "&nbsp;&nbsp;&nbsp;&nbsp;");
+          text = text.replace(/\n/g, "<br>");
+          element.innerHTML = text;
         }
       }
     });

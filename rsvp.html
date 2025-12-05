@@ -167,6 +167,39 @@ function setLang(language) {
 }
 </script>
 
+<script>
+document.getElementById("form").addEventListener("submit", function (event) {
+
+  const name = document.getElementById("name").value.trim();
+  const presence = document.querySelector('input[name="entry.279183771"]:checked');
+  const heberg = document.querySelector('input[name="entry.667456340"]:checked');
+
+  // Validate name
+  if (name === "") {
+    event.preventDefault();
+    alert("Veuillez indiquer votre nom ✍️");
+    document.getElementById("name").scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
+
+  // Validate presence
+  if (!presence) {
+    event.preventDefault();
+    alert("Merci d'indiquer votre présence 🗓️");
+    document.getElementById("rsvp_presence").scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
+
+  // Validate hébergement
+  if (!heberg) {
+    event.preventDefault();
+    alert("Merci de choisir une option d’hébergement 🛏️");
+    document.getElementById("rsvp_heberg").scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
+});
+</script>
+
 
 </body>
 

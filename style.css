@@ -279,7 +279,8 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
   flex: 2;
 }
 .chapitre {
-  display: flex;
+  display: block;
+  white-space: pre-line;
   gap: 20px;
   align-items: flex-start;
    margin-bottom: 40px;
@@ -389,4 +390,8 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
 
 .dropdown-langue:hover .dropdown-content {
   display: block;
+}
+
+p {
+  white-space: pre-line;
 }

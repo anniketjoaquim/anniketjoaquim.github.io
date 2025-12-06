@@ -242,7 +242,7 @@ height: 66vh;}
 /* === Histoire pager autre === */
 .histoire-page {
   padding: 120px 10% 60px; /* espace en haut pour éviter la nav fixe */
-  background: #ffc796;
+  background-color:blanchedalmond;
   min-height: 100vh;
   text-align: center;
 

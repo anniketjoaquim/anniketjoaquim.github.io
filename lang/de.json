@@ -1,3 +1,203 @@
 {
-  "fete": "Das Liebeswochenende"
+    "1_comment": "bar nav",
+
+  "nav_fete": "Die Feier",
+  "nav_histoire":"Unsere Geschichte",
+  "nav_info":"Infos",
+  "nav_faq":"FAQ",
+  "nav_rsvp":"RSVP",
+  "nav_langue":"🌍 Sprache",
+  "acc_date":"8. und 9. August 2026",
+
+
+
+  "countdown-finish": "Der abgewartete Tag ist endlich da!",
+  "intro":"Wir haben bereits JA zur Liebe gesagt, und das schönste Geschenk dieser Liebe ist unsere kleine Mayla. Heute laden wir euch ein um diese Liebe mit uns zu feiern, umgeben von all denen die wir lieben.",
+
+  "2_comment": "date",
+
+  "date_weekend":"Das Wochenende Unseres Liebesfest",
+  "date_quand":"Wann ?",
+  "date_quandrep":"Ab Samstag, 8. bis Sonntag, 9. August 2026",
+  "date_ou":"Wo ?",
+  "date_ourep":"Im Berghotel Chäserstatt, 3995 Ernen, Wallis",
+
+
+  "3_comment": "horaire",
+
+  "horaire_titre": "Ablauf des Wochenendes",
+  "horaire_t1a":"14:00 Uhr – Empfang 🍸",
+  "horaire_t1b":"Begrüßungsgetränk",
+  "horaire_t2a":"14:30 Uhr – Zeremonie 💍",
+  "horaire_t2b":"Zeremonie unter freiem Himmel",
+  "horaire_t3a":"15:30 Uhr – Rallye 🚩",
+  "horaire_t3b":"Spiele in Teams",
+  "horaire_t4a":"17:00 Uhr – Apéro🥂",
+  "horaire_t4b":"Getränke und Häppchen",
+  "horaire_t5a":"19:00 Uhr – Abendessen 🍽️",
+  "horaire_t5b":"Grillbuffet und Dessertbuffet",
+  "horaire_t6a":"22:00 Uhr – Party 🎉",
+  "horaire_t6b":"Bis zum Morgengrauen",
+  "horaire_t7a":"Ab 8:00 Uhr – Frühstück 🥐",
+  "horaire_t7b":"Für Frühaufsteher",
+
+
+  "4_comment": "histoire",
+
+  "histoire_titre":"Unsere Geschichte",
+  "histoire_annik":"„Wir haben buchstäblich ALLES miteinander geteilt: die ersten Blicke, den ersten Urlaub, die erste Meinungsverschiedenheit... und sogar die erste Trennung” – Annik",
+  "histoire_joaquim":"„Wenn unsere Liebe ein Jahr lang auf Distanz hält, wird sie ein Leben lang halten”  – Joaquim",
+  "histoire_button":"Für die gesamte Geschichte<br>Klicke hier",
+
+
+  "5_comment": "infomartion",
+
+  "info_titre":"Wichtige Informationen",
+  "info_intro":"Bevor ihr euren Koffer packt, nehmt euch bitte ein paar Minuten Zeit, um die folgenden Informationen sorgfältig durchzulesen. Sie helfen euch dabei, eure Anreise zu organisieren und euch über die Anfahrt zum Veranstaltungsort und die Übernachtungsmöglichkeiten zu informieren. <br> Es ist ganz einfach, versprochen – aber es gibt ein paar praktische Details, die ihr Wissen solltet, damit alles reibungslos verläuft!",
+  "info_trans_titre":"Transport",
+  "info_trans_intro":"Der Ort der Hochzeit ist nicht mit öffentlichen Verkehrsmitteln erreichbar. Der nächstgelegene Bahnhof ist Fiesch. Von dort aus benötigt ihr ein Auto. Wenn ihr mit öffentlichen Verkehrsmitteln anreisen möchtet, teilt uns dies bitte rechtzeitig mit, damit wir für euch die letzte Etappe organisieren können. <br> Am Ende des Dorfes Mühlebach, kurz vor dem letzten Anstieg, gibt es einen großen Platz, auf dem ihr kostenlos parken könnt. Die Koordinaten des kostenlosen Parkplatzes in Mühlebach sind: 46°24'36.0„N 8°09'30.7“E.  Von dort aus habt ihr zwei Möglichkeiten:<br><br>",
+  "info_trans_1titre":"1.\tMit dem Auto den kleinen Bergweg hinauffahren",
+  "info_trans_1cont":"Die Zufahrt kostet 5 CHF pro Auto und ist 24 Stunden lang gültig (ihr könnt also während dieser Zeit so oft hinauf- und hinunterfahren, wie ihr möchtet). Oben stehen zahlreiche Parkplätze zur Verfügung, darüber müsst ihr euch also keine Gedanken machen.",
+  "info_trans_2titre":"2.\tDas Auto unten stehen lassen und Fahrgemeinschaften bilden",
+  "info_trans_2cont":"Der Parkplatz am Fuß des Berges ist kostenlos und bietet ausreichend Platz. Für die verbleibenden 12 Minuten der Strecke könnt ihr euch nach Belieben eine Mitfahrgelegenheit mit anderen Gästen organisieren.",
+  "info_logement_titre":"Unterkunft",
+  "info_logement_intro":"Wir würden uns sehr freuen, wenn alle unsere Gäste vor Ort übernachten könnten, um das Wochenende gemeinsam in vollen Zügen zu genießen. Allerdings gibt es nicht genügend Betten für alle.<br><br>Daher möchten wir euch die unterschiedlichen Übernachtungsmöglichkeiten vorstellen:",
+  "info_logement_1titre":"1.\tZimmer im Hotel Chäserstatt (vor Ort)",
+  "info_logement_1cont":"Wer ein Zimmer nutzen möchte, kann dort auf eigene Kosten übernachten. Auf Wunsch kann in jedem Zimmer eine zusätzliche Matratze bereitgelegt werden.",
+  "info_logement_2titre":"2.\tZelte (vor Ort)",
+  "info_logement_2cont":"Für Abenteurer, Romantiker unter dem Sternenhimmel oder Camping-Nostalgiker besteht die Möglichkeit, euer Zelt kostenlos vor Ort aufzustellen. Falls ihr kein Zelt besitzt ist das kein Problem, wir kümmern uns darum. Ihr könnt die Toiletten und Duschen des Hotels ohne zusätzliche Kosten nutzen.",
+  "info_logement_3titre":"3.\tVans oder Autos (vor Ort)",
+  "info_logement_3cont":"Wenn ihr einen Van habt oder in eurem Auto übernachten möchtet, ist das ebenfalls möglich! Ihr könnt die Toiletten und Duschen des Hotels ohne zusätzliche Kosten nutzen.",
+  "info_logement_4titre":"4.\tHotelzimmer (anderswo)",
+  "info_logement_4cont":"Falls vor Ort keine Zimmer mehr verfügbar sind und ihr keine Lust auf Camping habt, gibt es mehrere Hotels im Tal, die 15 bis 20 Autominuten entfernt sind. Die Reservierung müsst ihr selbst vornehmen, aber wir stehen euch bei Fragen gerne zur Verfügung.",
+  "info_logement_concl":"Ihr könnt uns eure Präferenz unter den oben genannten Optionen in der Reservierung mitteilen, damit wir euch auf die verschiedenen Zimmer verteilen können. Bei Bedarf werden wir euch diesbezüglich direkt kontaktieren.",
+  "info_fin_titre":"Ankunft und Abreise",
+  "info_fin_cont":"Die Hochzeit findet an zwei Tagen statt: Samstag und Sonntag.<br>Wir, das Brautpaar, werden bereits einige Tage vorher vor Ort sein. Wenn einige von euch früher anreisen möchten, um die Umgebung zu genießen, würden wir uns sehr freuen!<br>Euch erwartet eine Art Kurzurlaub in den Bergen: eine entspannte Stimmung, spontane Aperitifs und viel gemeinsame Zeit. Die Kosten für Übernachtungen und Mahlzeiten tragt ihr selbst – die unvergesslichen Momente gibt es gratis dazu.<br>Wir möchten darauf hinweisen, dass es auch möglich ist, beide Nächte im Zelt oder im Auto zu verbringen (ohne zusätzliche Kosten).<br><br>Die offizielle Feier beginnt am Samstag um 14:00 Uhr – wir freuen uns, euch dann begrüßen zu dürfen. Für diejenigen, die am Samstagabend im Hotel übernachten, stehen einige Zimmer bereits bei eurer Ankunft zur Verfügung, andernfalls spätestens um 16 Uhr. In jedem Fall habt ihr einen Platz, wo ihr euer Gepäck abstellen könnt.<br>Für alle, die im Zelt übernachten möchten, empfehlen wir dringend, etwas früher anzureisen. So habt ihr vor der für 14:30 Uhr geplanten Zeremonie genug Zeit, euer Zelt in Ruhe aufzubauen – und müsst während der Feier nicht verschwinden … oder es um 4 Uhr morgens im Dunkeln (und vielleicht leicht beschwipst) aufstellen!<br><br>Am Sonntagmorgen wird das Frühstück zwischen 8 und 10 Uhr serviert. Die Zimmer müssen bis 10 Uhr geräumt sein.",
+
+
+  "6_comment": "FAQ",
+  "faq_titre":"FAQ",
+  "faq_infoprat_titre":"Praktische Informationen",
+  "faq_infoprat_intro":"Vielleicht habt ihr noch Fragen... Wir hoffen, diese hier beantworten zu können.",
+  "faq_infoprat_quest1":"Wo und wann findet die Hochzeit statt?",
+  "faq_infoprat_rep1":"Im Berghotel Chäserstatt (3995 Ernen) ab Samstag, 8. August 2026, 14:00 Uhr, bis Sonntag, 9. August 2026, 10:00 Uhr.<br>Wenn ihr jedoch die schöne Bergwelt genießen möchtet, würden wir uns freuen, euch bereits am Freitag begrüßen zu dürfen.",
+  "faq_infoprat_quest2":"Um wie viel Uhr sollen wir ankommen?",
+  "faq_infoprat_rep2":"Wir erwarten euch spätestens um 14:00 Uhr. Die Zeremonie beginnt um 14:30 Uhr.<br>Wenn ihr jedoch die schöne Bergwelt genießen möchtet, würden wir uns freuen, euch bereits am Freitag begrüßen zu dürfen.",
+  "faq_infoprat_quest3":"Gibt es eine Kleiderordnung?",
+  "faq_infoprat_rep3":"Seit schön gekleidet, aber nicht schöner als wir. 😉😘",
+  "faq_infoprat_quest4":"Findet die Hochzeit drinnen oder draußen statt?",
+  "faq_infoprat_rep4":"Komplett draußen, unter einem Zelt. Bei schlechtem Wetter gibt es Heizungen.",
+  "faq_infoprat_quest5":"Wie sind die typischen Wetterbedingungen vor Ort an diesem Wochenende?",
+  "faq_infoprat_rep5":"Wir befinden uns auf 1770 m Höhe. Man kann also nie genau wissen. Schaut vor der Abreise in den Wetterbericht.",
+  "faq_trans_heberg_titre":"Transport & Unterkunft",
+  "faq_trans_heberg_quest1":"Wie kommt man dorthin?",
+  "faq_trans_heberg_rep1":"Wie im Abschnitt „Wichtige Informationen” erwähnt, ist es am einfachsten, mit dem Auto anzureisen.<br>Mit öffentlichen Verkehrsmitteln ist der nächstgelegene Bahnhof der von Fiesch. Das letzte Teilstück ist allerdings nicht mit ÖV erreichbar.",
+  "faq_trans_heberg_quest2":"Gibt es Parkplätze vor Ort?",
+  "faq_trans_heberg_rep2":"Wie im Abschnitt „Wichtige Informationen” erwähnt. Es gibt zahlreiche Parkplätze rund um das Hotel.<br>Beachtet, dass für jedes Auto, das hinauffährt, eine Gebühr von 5 CHF/24 Stunden anfällt. Es ist auch möglich, das Auto unten an der gebührenpflichtigen Straße (auf dem kostenlosen Parkplatz von Mühlebach) stehen zu lassen und Fahrgemeinschaften zu bilden.",
+  "faq_trans_heberg_quest3":"Gibt es Shuttlebusse zum Veranstaltungsort?",
+  "faq_trans_heberg_rep3":"Es sind keine Shuttlebusse vorgesehen.",
+  "faq_trans_heberg_quest4":"Wo kann man übernachten?",
+  "faq_trans_heberg_rep4":"Wie im Abschnitt „Wichtige Informationen” erwähnt, stehen euch mehrere Optionen zur Verfügung. Ihr könnt eure bevorzugte Option bei der Anmeldung auswählen.",
+  "faq_trans_heberg_qest5":"Wo und wann können wir unser Gepäck abstellen?",
+  "faq_trans_heberg_rep5":"Wie im Abschnitt „Wichtige Informationen” erwähnt. Sollte euer Zimmer bei eurer Ankunft bereits bezugsbereit sein, könnt ihr es gerne vor der Zeremonie beziehen. Andernfalls stehen sämtliche Zimmer spätestens um 16 Uhr zur Verfügung. Für euer Gepäck gibt es unabhängig davon einen separaten Raum.<br>Für diejenigen, die im Zelt übernachten, empfehlen wir, etwas Zeit einzuplanen und das Zelt gleich nach eurer Ankunft vor der Zeremonie aufzubauen. Ein Zelt in der Nacht und möglicherweise angeheitert aufzubauen, könnte sich etwas schwieriger gestalten (wir sprechen aber nicht aus Erfahrung).",
+  "faq_repas_titre":"Mahlzeiten & Allergien",
+  "faq_repas_qest1":"Ich habe eine spezielle Diät, was soll ich tun?",
+  "faq_repas_rep1":"Das Essen wird in Form eines Buffets serviert, es wird für jeden etwas dabei sein.",
+  "faq_repas_quest2":"Ich habe Allergien, was soll ich tun?",
+  "faq_repas_rep2":"Ihr könnt eure Allergien bei der Anmeldung angeben.",
+  "faq_prog_titre":"Programm & Organisation",
+  "faq_prog_quest1":"Gibt es am nächsten Tag eine Party?",
+  "faq_prog_rep1":"Zwischen 8 und 10 Uhr wird vor Ort ein Frühstück angeboten.",
+  "faq_prog_quest2":"Können wir früher kommen oder länger bleiben?",
+  "faq_prog_rep2":"Gerne, wir sind mehrere Tage vor und nach der Feier vor Ort.",
+  "faq_enfant_titre":"Kinder & Begleitpersonen",
+  "faq_enfant_quest1":"Gibt es einen Bereich oder ein Unterhaltungsprogramm für Kinder?",
+  "faq_enfant_rep1":"Es gibt ein Spielzimmer, aber kein Unterhaltungsprogramm.",
+  "faq_enfant_quest2":"Gibt es vor Ort Babybetten und Hochstühle?",
+  "faq_enfant_rep2":"Ja, beides. Ihr könnt uns eure Bedürfnisse diesbezüglich bei der Anmeldung mitteilen.",
+  "faq_enfant_quest3":"Kann ich eine Begleitperson mitbringen?",
+  "faq_enfant_rep3":"Die Einladungen sind namentlich, da wir die Hochzeit bewusst im kleinen Kreis und in einer intimen Atmosphäre feiern möchten, um jeden einzelnen Gast besonders genießen zu können.<br>Vielen Dank für euer Verständnis – wir freuen uns sehr, diesen besonderen Tag mit euch zu teilen.",
+  "faq_divers_titre":"Verschiedenes",
+  "faq_divers_quest1":"Dürfen wir während der Zeremonie und der Feier Fotos machen?",
+  "faq_divers_rep1":"Ja, gerne.",
+  "faq_divers_quest2":"Bis wann muss ich meine Teilnahme bestätigen?",
+  "faq_divers_rep2":"Bitte bestätigt eure Teilnahme bis zum Ende des Kalenderjahres 2025, also spätestens bis zum 31. Dezember 2025. Vielen Dank. Zur Information: Jeder Gast muss die RSVP ausfüllen.",
+
+
+  "7_comment":"RSVP",
+
+  "sect_rsvp_titre":"Falls ihr weitere Fragen habt, erreicht ihr uns unter:",
+  "sect_rsvp_cont":"Wir werden diese Liebe zu dritt feiern und würden uns freuen, wenn ihr dabei wärt.",
+  "sect_rsvp_button":"Bitte meldet euch bis zum 31.12.2025 an.",
+
+
+
+
+
+
+  "8_comment":"Page histoire",
+
+  "SitHist_titre":"Notre histoire - Annik & Joaquim",
+  "sithist_intro":"Unsere Geschichte aus der Sicht von…<br>mir, Mayla",
+  "sithsit_intro2":"Hallo zusammen,<br><br>ich heiße Mayla und obwohl ich erst ein paar Monate alt bin, bin ich schon eine große Expertin in Sache Liebe... denn ich habe das Glück, Teil der schönsten Geschichte überhaupt zu sein, nämlich der meiner Eltern Annik und Joaquim.<br><br>Macht es euch bequem, ich erzähle euch alles von Anfang an.",
+  "chap1_titre":"Kapitel 1: Das neue Paar, 2008",
+  "chap1_cont":"Vor mehr als 17 Jahren (ja, ja, das ist eine lange Zeit für mich, ich bin noch nicht einmal 17 Monate alt!) lernten sich meine Eltern in der Schule kennen, sie waren in derselben Klasse. Sehr schnell verbreitete sich das Gerücht, dass ein Junge aus der Klasse in Mama verliebt sei.<br><br>Und dann kam der 12. Dezember, das berühmte Fest der Escalade. An diesem Tag schickte Papa Mama eine SMS (so nannte man damals Nachrichten), um ihr mitzuteilen, dass er ihr noch am selben Abend die Identität von ihrem heimlichen Verehrers verraten würde. Während der Schulparty fasste er all seinen Mut zusammen und gestand ihr: „Ich bin der Junge, der in dich verliebt ist.“<br><br>Mama, etwas überrascht (und auch etwas unentschlossen), bat um Bedenkzeit.<br><br>Spoiler: Sie brauchte etwa 30 Minuten und ein Notfalltreffen mit ihren Freundinnen, bevor sie zurückkam und „Ja“ sagte.<br>Das Ergebnis: der erste Tanz, der erste Kuss ... und der Beginn ihrer Geschichte.",
+  "chap2_titre":"Kapitel 2: Die Teenagerjahre",
+  "chap2_cont":"Und dann? Aktivitäten, Ausflüge, lange Abschiede hinter dem Holzstapel, Kinos, Restaurants ... kurz gesagt, alles, was man braucht, um viele Erinnerungen zu sammeln.<br><br>Dann kam die Mittelschule, aber an ihren Gewohnheiten änderte sich nichts. Bis Mama eines Tages für ein ganzes Jahr nach Kanada geht.<br><br>Wisst ihr, was das Lustigste daran ist? Papa hat seinen Abflug am Flughafen verpasst, weil sein Wecker nicht geklingelt hat (ja, ja, das ist wahr!).<br><br>Aber das Verrückteste daran ist, dass wenn Mama Papa allein in Genf zurückließ, um dieses großartige Abenteuer am anderen Ende der Welt zu erleben, waren die beiden erst sechzehn Jahre alt. Sie waren jung, gutaussehend, getrennt an beiden Enden der Welt ... und dennoch haben sie nie gezweifelt. Nicht ein einziges Mal! Keine Krise, keine Pause, kein „wir werden schon sehen“, gar nichts. Ihre Beziehung hielt stand – so stark wie nie zuvor.<br><br>Trotzdem muss man auch Skype danken! Dank Skype (und auch dank Papas frühem Aufstehen) konnten sie trotz der Zeitverschiebung weiter miteinander reden, lachen und sich lieben. Das zeigt, dass selbst Ozeane nichts ändern können, wenn man den richtigen Partner gefunden hat!",
+  "chap3_titre":"Kapitel 3: Die Universität und das Erwachsenenleben",
+  "chap3_cont":"Mama zieht wieder weg... Aber dieses Mal nicht sehr weit. Sie wird in Lausanne Sport und Englisch studieren. Papa bleibt in Genf, um Biologie zu studieren.<br><br>Das Ergebnis: Sie sehen sich nur noch am Wochenende.<br><br>Und dann kommt 2020: Covid, aber auch ihre Trennung. Es war keine leichte Zeit für die beiden. Dennoch glaube ich, dass diese Phase notwendig war, damit ihre Beziehung vorankommen und wachsen konnte.<br><br>Aber glücklicherweise scheint es so zu sein, dass wenn zwei Menschen füreinander bestimmt sind, finden sie immer wieder zueinander.<br><br>Nach dem Lockdown beschlossen Mama und Papa, ihrer Beziehung eine neue Chance zu geben und zusammenzuziehen. Nun ja ... sagen wir mal, der erste Versuch war nicht gerade ein Erfolg. Aber da schöne Geschichten immer ihren Weg finden, kamen sie schließlich endgültig zusammen, in einer kleinen Wohnung in Puplinge. Und dieses Mal hat sie nichts mehr getrennt.</p>",
+  "chap4_titre":"Kapitel 4: Der Heiratsantrag und… ich!",
+  "chap4_cont":"Im Sommer 2024, während ihrer Reise nach Norwegen, machte Papa (endlich) seinen Heiratsantrag. (Ehrlich gesagt, war es höchste Zeit, oder?)<br><br>Was sie jedoch nicht ahnten, war, dass sie auf derselben Reise noch ein weiteres Glück erwartete... Zwei Wochen später stellten sie fest, dass in Mamas Bauch bereits ein kleines Herz schlug: ich.<br><br>Es versteht sich von selbst, dass die Hochzeit nun schnell an Priorität verlor...<br><br>Und am 31. März 2025 kam ich auf die Welt und trat in das Leben von Mama und Papa.",
+  "chap5_titre":"Kapitel 5: Und hier sind wir heute",
+  "chap5_cont":"Ja, wir mussten etwas warten, um dieses Fest organisieren zu können... Aber das Warten hat sich gelohnt, oder?<br><br>Im kommenden August werden wir dort sein, umgeben von all denen, die wir lieben, um 17 Jahre Geschichte, Abenteuer, Trennungen und Wiedersehen, Gelächter und Projekte zu feiern.<br><br>Und ich bin in der Lage, euch eines zu sagen: Meine Eltern sind der lebende Beweis dafür, dass Liebe mit Geduld, Zuhören, viel Humor und ein bisschen Skype alles überwinden kann.",
+  "signa":"Unterzeichnet: Eure acht Monate alte Erzählerin (die schon ein bisschen stolz auf ihre Eltern ist),<br><strong>Mayla</strong>",
+  "button_retour":"⬅ Zurück",
+
+
+
+
+
+
+  "9_comment":"rsvp",
+  
+  "rsvp_t":"RSVP - Annik & Joaquim",
+  "rsvp_btn_ret":"Zurück",
+  "rsvp_titre":"Liebesfest Annik & Joaquim",
+  "rsvp_cont1":"",
+  "rsvp_cont2":"Beantworte bitte diese Fragen, um Deine Teilnahme zu bestätigen.",
+  "rsvp_info_perso_titre":"Persönliche Angaben",
+  "rsvp_fin_perso_prenom":"Vorname",
+  "rsvp_fin_perso_nom":"Nachname",
+
+  "rsvp_presence":"Présence",
+  "rsvp_presence_rep1":"Ich möchte das Fest in vollen Zügen genießen und komme bereits am Freitag. ",
+  "rsvp_presence_rep2":"Ich werde am Samstag und Sonntag dabei sein.",
+  "rsvp_presence_rep3":"Ich werde nur am Samstag dabei sein.",
+  "rsvp_presence_rep4":"Leider muss ich dieses tolle Event leider verpassen.",
+  "rsvp_presence_commentaire":"Kommentar:",
+  
+  "rsvp_repas":"Verpflegung",
+  "rsvp_repas_rep":"Hast du Allergien oder Unverträglichkeiten?",
+
+  "rsvp_heberg":"Unterkunft",
+  "rsvp_heberg_rep1":"Ich bin offen für die Idee, im Zelt (vor Ort) zu schlafen.",
+  "rsvp_heberg_rep2":"Ich möchte in einem Zimmer im Berghotel Chäserstatt (vor Ort) übernachten.",
+  "rsvp_heberg_rep3":"Ich werde nicht vor Ort übernachten und mich selbst um eine Unterkunft kümmern.",
+  "rsvp_heberg_rep4":"Ich will das Zelt.",
+  "rsvp_heberg_rep5":"Schlafen? Wozu?",
+  "rsvp_heberg_com":"Kommentar:",
+
+  "rsvp_music":"Musik",
+  "rsvp_music_cont":"Wenn Du nicht die ganze Nacht Disney hören möchten, teilen Sie uns gerne dein Lieblingssong für einen gelungenen Abend mit.",
+
+  "rsvp_bebe":"Babyausstattung",
+  "rsvp_bebe_rep1":"Ich benötige ein Babybett.",
+  "rsvp_bebe_rep2":"Ich benötige einen Hochstuhl für mein Baby.",
+ 
+  "rsvp_reponse":"Senden",
+
+  "rsvp_validation":"Les réponses seront enregistrées via Google Forms."
+
 }
+
+

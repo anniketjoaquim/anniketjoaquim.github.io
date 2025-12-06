@@ -75,7 +75,7 @@ nav .btn-langue  p { padding: 15px; font-size: 15px; color: #333; border-top: 1p
   justify-content: center;  /* center vertically (optional) */
   text-align: center;       /* center text */
   gap: 20px;                /* space between elements */
-height: 66vh;}
+height: 40vh;}
 .information{height:auto; width:auto;justify-content: flex-start;padding: 5% 10%; background-color: #f9e7b5;
 }
 .information-titre-main{justify-content: center;align-items: center; text-align: center}
@@ -133,7 +133,7 @@ height: 66vh;}
 
 /* === Notre histoire === */
 .notre-histoire {
-  display: grid; grid-template-columns: 1fr 2fr; /* image 1/3, texte+bouton 2/3 */ align-items: center; gap: 40px; background: #faf2de; min-height: 50vh; padding: 40px 10%;
+  display: grid; grid-template-columns: 1fr 2fr; /* image 1/3, texte+bouton 2/3 */ align-items: center; gap: 40px; background: #faf2de; min-height: 40vh; padding: 40px 5%;
 }
 
 .histoire-image { display: flex; justify-content: center; /* centre l’image dans sa colonne */

@@ -84,6 +84,12 @@ height: 40vh;}
 
 
 
+.no-justify {
+     text-align: left;   /* or right, or center */
+}
+
+
+
 /* === Overlay textes === */
 .overlay-text { color: white; }
 .overlay-text h1 { font-family: 'Univers Condensed Light'; font-size: 4rem; font-weight: bold;}
